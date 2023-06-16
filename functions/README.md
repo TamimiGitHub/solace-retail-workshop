@@ -13,3 +13,13 @@ This folder contains a list of Azure functions that will be triggered via Solace
 | DB   | This function adds data to a database  | t/t/t/ |
 
 ## How to run
+1. Create a new file called `local.settings.json`
+1. Fill it with the following
+```json
+{
+  "IsEncrypted": false,
+  "Values": {
+      "PowerBIPOSURL": "URL to Power BI Dashboard"
+  }
+}
+```
