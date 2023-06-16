@@ -3,7 +3,7 @@
 This microservice emulates a Customer mobile application that reflects discounts on produce that will expire in X and Y days
 
 ## Technology
-![](../img/ws.png)
+![](../img/ws.jpeg)
 
 WSS over JS
 
