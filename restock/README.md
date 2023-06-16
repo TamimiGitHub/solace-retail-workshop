@@ -3,7 +3,7 @@
 This microservice emulates a the restocking system 
 
 ## Technology
-<img src="../img/scst.png" width="50%" height="50%">
+<img src="../img/scst.png" width="20%" height="20%">
 
 Spring Cloud Stream Application
 
