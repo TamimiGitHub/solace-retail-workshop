@@ -3,15 +3,15 @@
 This repo contains several microservices that will emulate a grocery store with the following activities
 
 ### In Store
-- Restocking system - Responsible for stocking the inventory with new produce
-- POS System - Responsible for checking shoppers out
-- Associate Device - Used by associates to update current inventory and receive information on inventory status 
+- [Restocking system](./restock) - Responsible for stocking the inventory with new produce
+- [POS System](./pos/) - Responsible for checking shoppers out
+- [Associate Device](./associate/) - Used by associates to update current inventory and receive information on inventory status 
 
 ### User interaction 
-- Customer Application - Alerts customers on potential discounts
+- [Customer Application](./customer-app/) - Alerts customers on potential discounts
 
 ### Backend
-- Azure Functions
+- [Azure Functions](./functions/)
   - Updating PowerBI dashboard
   - Updating Azure SQL db
 - Connectors
