@@ -3,7 +3,8 @@
 This microservice emulates the associate's device
 
 ## Technology
-![](../img/mqtt.png)
+<img src="../img/mqtt.png" width="50%" height="50%">
+
 
 MQTT - NodeJs
 

@@ -3,7 +3,7 @@
 This microservice emulates a POS system 
 
 ## Technology
-![](../img/scst.png)
+<img src="../img/scst.png" width="50%" height="50%">
 
 Spring Cloud Stream Application
 
