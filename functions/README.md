@@ -4,7 +4,7 @@ This folder contains a list of Azure functions that will be triggered via Solace
 
 ## Functions
 
-![](../img/azure.png | width=100)
+![](../img/azure.png){:height="50%" width="50%"}
 
 | Function Name  | Description | Trigger Topic | 
 | ------------- | ------------- | ------------- |
