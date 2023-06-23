@@ -19,12 +19,14 @@ This repo contains several microservices that will emulate a grocery store with 
   - Other Solace Connectors
   - Possible .NET application
 
-  ### ToDo List
-  -[ ] restock(./restock/)
-  -[ ] POS System (./pos/)
-  -[ ] Associate device (./associate/)
-  -[ ] Customer Application (./customer-app/)
-  -[ ] Azure functions (./functions/)
 
 
 ![](./img/arch.png)
+
+
+  ### ToDo List
+  - [ ] restock(./restock/)
+  - [ ] POS System (./pos/)
+  - [ ] Associate device (./associate/)
+  - [ ] Customer Application (./customer-app/)
+  - [ ] Azure functions (./functions/)
