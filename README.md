@@ -25,8 +25,8 @@ This repo contains several microservices that will emulate a grocery store with 
 
 
   ### ToDo List
-  - [ ] restock(./restock/)
-  - [ ] POS System (./pos/)
-  - [ ] Associate device (./associate/)
-  - [ ] Customer Application (./customer-app/)
-  - [ ] Azure functions (./functions/)
+  - [ ] [restock](./restock/)
+  - [ ] [POS System](./pos/)
+  - [ ] [Associate device](./associate/)
+  - [ ] [Customer Application](./customer-app/)
+  - [ ] [Azure functions](./functions/)
