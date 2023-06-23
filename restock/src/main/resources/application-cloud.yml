@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    function:
+      definition: publishOrder
+    stream:
+      bindings:
+        publish-out-0:
+          binder: local-solace
+      binders:
+        local-solace:
+          type: solace
+          environment:
+            solace:
+              java:
+                host: tcps://aws-ca-retail.messaging.solace.cloud:55443
+                msgVpn: aws-ca
+                clientUsername:
+                clientPassword:
+server:
+  port: 8093
