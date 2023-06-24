@@ -1,72 +1,12 @@
-[
 {
-  "name": "Restock",
-  "type": "record",
-  "namespace": "kroger-workshop",
-  "version": "1",
-  "fields": [
-    {
-        "product": {
-          "name": "Milk",
-          "brand": "Acme Dairy",
-          "sku": "ACME-12345",
-          "category": "Dairy",
-          "unit_price": 2.99,
-          "quantity": 10
-        },
-        "supplier": {
-          "name": "Milk Supplier Inc.",
-          "contact": "John Smith",
-          "email": "john@milksupplier.com",
-          "phone": "+1 (555) 123-4567"
-        },
-        "inventory": {
-          "available_quantity": 8,
-          "minimum_threshold": 5,
-          "restock_required": false,
-          "milk_items": [
-            {
-              "identifier": "MILK-001",
-              "batch_id": "BATCH-20230622-001",
-              "batch_date": "2023-06-22",
-              "expiry_date": "2023-07-15",
-              "days_remaining": 23,
-              "expired": false
-            },
-            {
-              "identifier": "MILK-002",
-              "batch_id": "BATCH-20230628-002",
-              "batch_date": "2023-06-28",
-              "expiry_date": "2023-07-20",
-              "days_remaining": 28,
-              "expired": false
-            }
-          ]
-        },
-        "purchase_order": {
-          "order_id": "PO-20230622-001",
-          "order_date": "2023-06-22",
-          "ordered_quantity": 10,
-          "unit_price": 2.99,
-          "total_price": 29.9
-        },
-        "batches": [
-            {
-              "batch_id": "BATCH-20230622-001",
-              "batch_date": "2023-06-22",
-              "expiry_date": "2023-07-15",
-              "days_remaining": 23,
-              "expired": false
-            },
-            {
-              "batch_id": "BATCH-20230628-002",
-              "batch_date": "2023-06-28",
-              "expiry_date": "2023-07-20",
-              "days_remaining": 28,
-              "expired": false
-            }
-        ]
-      }
-  ]
+  "product": {
+    "name": "Milk",
+    "brand": "Acme Dairy",
+    "sku": "ACME-12345",
+    "category": "Dairy",
+    "unit_price": 2.99,
+    "expiration_date": "2023-07-15",
+    "batch_number": "BATCH-20230622-001",
+    "supplier": "Milk Supplier Inc."
+  }
 }
-]

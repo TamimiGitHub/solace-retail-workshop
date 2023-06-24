@@ -3,21 +3,17 @@ package restock.restock;
 import java.time.Instant;
 import java.util.*;
 
-import restock.Order;
+import restock.Product;
 
 
 // TODO: Move the potential order data to a json file
 // TODO: Read the catalog json file and select items from it.
-public class GenerateOrder {
-    public static Integer MAX_ITEMS = 20;
-    public static Integer MAX_QUANTITY = 10;
-    private Order order = new Order();
-    private static HashMap<String, Double> availableItems;
-
-    public GenerateOrder() {
-        // Default constructor for a new order
-        System.out.println("Creating a new order!");
-        availableItems  = buildItems();
+public class GenerateProduct {
+    
+    public GenerateProduct() {
+        // Default constructor for a new product
+        System.out.println("Creating a new product!");
+        availableItems  = buildProduct();
 
         Random random = new Random();
         // Generate an order number.

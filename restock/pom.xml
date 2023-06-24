@@ -31,6 +31,11 @@
       <version>20180813</version>
     </dependency>
 		<dependency>
+    		<groupId>org.jsonschema2pojo</groupId>
+    		<artifactId>jsonschema2pojo-core</artifactId>
+    		<version>1.1.1</version>
+		</dependency>
+		<dependency>
 			<groupId>com.solace.spring.cloud</groupId>
 			<artifactId>spring-cloud-starter-stream-solace</artifactId>
       		<version>3.4.0</version>
