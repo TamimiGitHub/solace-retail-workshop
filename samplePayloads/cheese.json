@@ -1,0 +1,11 @@
+{
+    "name": "Cheese",
+    "brand": "Delicious Dairy",
+    "sku": "DEL-98765",
+    "category": "Dairy",
+    "unit_price": 4.99,
+    "expiration_date": 1687809257,
+    "batch_number": "BATCH-20230623-002",
+    "supplier": "Cheese Co."
+  }
+  

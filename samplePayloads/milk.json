@@ -1,0 +1,11 @@
+{
+    "name": "Milk",
+    "brand": "Acme Dairy",
+    "sku": "ACME-12345",
+    "category": "Dairy",
+    "unit_price": 2.99,
+    "expiration_date": 1687809257,
+    "batch_number": "BATCH-20230622-001",
+    "supplier": "Milk Supplier Inc."
+}
+  

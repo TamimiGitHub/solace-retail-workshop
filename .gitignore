@@ -1,0 +1,12 @@
+local.settings.json
+.vscode/settings.json
+node_modules
+.DS_Store
+.idea/modules.xml
+.idea/uiDesigner.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/kroger-workshop.iml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+restock/src/main/resources/application-cloud.yml

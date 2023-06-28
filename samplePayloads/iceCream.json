@@ -1,0 +1,10 @@
+{
+    "name": "Ice Cream",
+    "brand": "Scoops",
+    "sku": "SCOOP-24680",
+    "category": "Dairy",
+    "unit_price": 5.99,
+    "expiration_date": 1687809257,
+    "batch_number": "BATCH-20230626-005",
+    "supplier": "Ice Cream Delights"
+  }

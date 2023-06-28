@@ -1,0 +1,11 @@
+{
+    "name": "Butter",
+    "brand": "Golden Spread",
+    "sku": "GOLD-13579",
+    "category": "Dairy",
+    "unit_price": 3.49,
+    "expiration_date": 1687809257,
+    "batch_number": "BATCH-20230625-004",
+    "supplier": "Butter Co."
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "name": "Yogurt",
+    "brand": "Probiotic Delights",
+    "sku": "PRO-24680",
+    "category": "Dairy",
+    "unit_price": 1.99,
+    "expiration_date": 1687809257,
+    "batch_number": "BATCH-20230624-003",
+    "supplier": "Yogurt Enterprises"
+  }
+  

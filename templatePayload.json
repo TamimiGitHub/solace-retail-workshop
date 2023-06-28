@@ -1,0 +1,72 @@
+[
+{
+  "name": "string",
+  "type": "string",
+  "namespace": "string",
+  "version": "number",
+  "fields": [
+    {
+        "product": {
+          "name": "string",
+          "brand": "string",
+          "sku": "string",
+          "category": "string",
+          "unit_price": "number",
+          "quantity": "number"
+        },
+        "supplier": {
+          "name": "string",
+          "contact": "string",
+          "email": "string",
+          "phone": "string"
+        },
+        "inventory": {
+          "available_quantity": "number",
+          "minimum_threshold": "number",
+          "restock_required": "boolean",
+          "milk_items": [
+            {
+              "identifier": "string",
+              "batch_id": "string",
+              "batch_date": "string",
+              "expiry_date": "string",
+              "days_remaining": "number",
+              "expired": "boolean"
+            },
+            {
+              "identifier": "string",
+              "batch_id": "string",
+              "batch_date": "string",
+              "expiry_date": "string",
+              "days_remaining": "number",
+              "expired": false
+            }
+          ]
+        },
+        "purchase_order": {
+          "order_id": "string",
+          "order_date": "string",
+          "ordered_quantity": "number",
+          "unit_price": "number",
+          "total_price": "number"
+        },
+        "batches": [
+            {
+              "batch_id": "string",
+              "batch_date": "string",
+              "expiry_date": "string",
+              "days_remaining": "number",
+              "expired": "boolean"
+            },
+            {
+              "batch_id": "string",
+              "batch_date": "string",
+              "expiry_date": "string",
+              "days_remaining": "number",
+              "expired": "boolean"
+            }
+        ]
+      }
+  ]
+}
+]
